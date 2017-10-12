@@ -4,7 +4,9 @@
   "description": "Hello Express Application",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+    "dev": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +17,11 @@
   "bugs": {
     "url": "https://github.com/elqahtani/hello-express/issues"
   },
-  "homepage": "https://github.com/elqahtani/hello-express#readme"
+  "homepage": "https://github.com/elqahtani/hello-express#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.1"
+  }
 }
